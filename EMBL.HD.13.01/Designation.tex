@@ -1,0 +1,12 @@
+\begin{tikzpicture}
+	\node[draw, text width=3.7cm, minimum height=3cm, align=center, fill=yelloworange] (signpost) {\tiny \textbf{\, \\ \, \\ Genetic Engineering Work Area\\ - Safety Level S\,2 -\\ \, \\ \, \\ Gentechnischer Arbeitsbereich\\ - Sicherheitsstufe S\,2 -\\ \,}};
+					\node (table) [right=4.4cm of signpost.south west, anchor=south west, align=left, inner ysep=0pt] {
+\begin{tabular}{@{}p{2cm}>{\raggedright\arraybackslash}p{12cm}}
+	\textbf{Building 1} 		& \textbf{\nth{1} floor:} 1-123\\ 
+	\textbf{Building 2}		& \textbf{\nth{2} floor:} 2-A292\\ 
+	\textbf{Building 9\textsc{a}}	& \textbf{\nth{3} floor:} 9\textsc{a}-100, 9\textsc{a}-101, 9\textsc{a}-102, 9\textsc{a}-103\\
+\end{tabular}
+		};
+	\node (programme) [above=.5cm of table.north west, anchor=south west, inner ysep=0pt] {\textsc{Programme: Storage and Inactivation}
+	};
+\end{tikzpicture}
